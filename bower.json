@@ -1,0 +1,41 @@
+{
+  "name": "new-portfolio",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.1",
+    "normalize-scss": "~3.0.3",
+    "foundation": "~5.5.3",
+    "lity": "~1.5.1",
+    "jquery-smooth-scroll": "~1.6.1",
+    "Chart.js": "~1.0.2",
+    "bourbon": "~4.2.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "overrides": {
+    "lity": {
+      "main": [
+        "dist/lity.min.js",
+        "dist/lity.min.css"
+      ]
+    },
+    "jquery-smooth-scroll": {
+      "main": [
+        "jquery.smooth-scroll.min.js"
+      ]
+    },
+    "foundation": {
+      "dependencies": {},
+      "main": [
+        "scss/foundation/_functions.scss",
+        "scss/foundation/components/_type.scss",
+        "scss/foundation/components/_grid.scss",
+        "scss/foundation/components/_block-grid.scss",
+        "scss/foundation/components/_visibility.scss"
+      ]
+    }
+  }
+}
